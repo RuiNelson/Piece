@@ -107,6 +107,7 @@ private struct NetworkSettings: View {
                 .textFieldStyle(.roundedBorder)
                 .frame(width: 90)
                 .multilineTextAlignment(.trailing)
+                .monospacedDigit()
             Text("KB/s").foregroundStyle(.secondary)
         }
     }
